@@ -19,7 +19,8 @@ In general, it's a good idea to read through
 [The elba Guide](https://elba.github.io/elba/) to familiarize yourself with how
 elba works before attempting to add a package to its default index. However, it
 is vitally necessary that you read on
-[how elba handles package names](https://elba.github.io/elba/usage/manifest.html)
+[how elba handles package names](https://elba.github.io/elba/usage/manifest.html),
+[package resolutions](https://elba.github.io/elba/reference/resolutions.html),
 and [how package indices work](https://elba.github.io/elba/reference/indices.html)
 before attempting to add a package.
 
@@ -48,3 +49,6 @@ elba indices as a whole:
     put a line in a metadata file in the official index, you **cannot** change
     that line unless you are yanking that package. This means you can't delete
     packages too.
+
+  - The direct resolution of all packages must be a git repository with a
+    specific commit specified.
