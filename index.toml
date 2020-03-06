@@ -1,4 +1,4 @@
 [index]
 dependencies = {}
 secure = false
-registry = "https://api.elba.pub"
+registry = "https://api.elba.pub"   # deprecated
